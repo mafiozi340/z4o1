@@ -284,25 +284,35 @@ margin-top: 40px;
     }
     .btm2 {
         position: relative;
-        right: -450px;
+        left: 450px;
         top: 10px;
     }
 
     .footer{
-        height: 90px;
+        height: 70px;
         background-color: #f6f9f9;
         }
-    .footer p{
+
+    .footer p{/* здесь я задал размеры для надписи , чтобы она не вылазила за пределы класса центр*/
+        width: 200px;
+        height: 30px;
+        display: inline-block;
         font-size: 15px;
         color: #999999;
         position: relative;
-        top: 50%;
+        top: 0px;
         left: 10%;
         
+    
     }
 
-    .footer .iconfooter {
+    .icon{ /* а здесь поместил картинки в див, и они тоже не вылазят за пределы класса центр*/
+        width: 180px;
+        height: 50px;
         display: inline-block;
         position: relative;
-        right: -160vh;
+        left: 500px;  
+        top: 10px;
     }
+
+    
